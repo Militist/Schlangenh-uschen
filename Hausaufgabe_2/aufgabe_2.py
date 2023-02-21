@@ -13,3 +13,10 @@ for x in range(1, 1001):
         if x + y == s and x * y == p:
             print(x, y)
             break
+
+# s, p = (int(input()) for i in range(2))
+# for x in range(1, 1001):
+#     y = s - x
+#     if x <= y and x * y == p:
+#         print(x, y)
+#         break
