@@ -19,6 +19,7 @@ print(nums)
 for i in nums:
     if i == gesuchtes:
         count = count + 1
+        print(f"{i}встречается {count} раз в списке.")
 if len(nums) != 0:
     minDifferent = abs(gesuchtes - nums[0])
     element = nums[0]
